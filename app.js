@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const joi = require('joi');
 const bcrypt = require('bcrypt');
 const dotenv = require('dotenv');
@@ -272,3 +273,4 @@ async function reverse(reference) {
     };
   }
 }
+createUser(null, 'passwordd').then(console.log).catch(console.log);
