@@ -12,6 +12,7 @@
   },
   "rules": {
       "camelcase":"off",
-      "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+	  "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+	  "linebreak-style": ["error", "windows"]
   }
 }
