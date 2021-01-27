@@ -101,7 +101,7 @@ async function deposit(account_id, amount) {
     await t.rollback();
     return {
       success: false,
-      error: 'there was error',
+      error: 'there was an error, pls try again later',
     };
   }
 }
